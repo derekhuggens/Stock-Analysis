@@ -1,6 +1,6 @@
 # stock-analysis
 
-##Overview of Project
+## Overview of Project
 
 
 ## VBA Learning Points
@@ -14,9 +14,16 @@ The challenging part of the analysis was filling the columns titled: "Ticker", "
 
 ## Code Refactoring
 ###
-The stock analysis macro that was written looped through the entire worksheet, updating row by row, and columm by column within Excel which reulted in a run-time of 0.65~ seconds for 2017 and 2018. Macro run-times introduced the topic of code refactoring. Using multiple output arrays, we were able to rewrite the original stock analysis macro into a refactored stock analysis macro that ran much more efficiently. Refactoring code is especially important for future analyses that may include exponentially more data. Ticker volumes added together for every trading day in the year, ticker starting prices (closing price) for each ticker at the beginning of the year, and ticker ending prices (closing price) for each ticker at the end of the year, were stored in arrays and then outputted to appropriate cells which made the macro run significantly faster when values were assigned memory addresses in RAM. In the below images under the Resources header, we can see that stock analysis macro code run-times decreased greatly to 0.17~ seconds for 2017 and 0.14~ seconds for 2018, respectively.
+The stock analysis macro that was written looped through the entire worksheet, updating row by row, and columm by column within Excel which reulted in a run-time of 0.66~ seconds for 2017 and 2018. Macro run-times introduced the topic of code refactoring. Using multiple output arrays, we were able to rewrite the original stock analysis macro into a refactored stock analysis macro that ran much more efficiently. Refactoring code is especially important for future analyses that may include exponentially more data. Ticker volumes added together for every trading day in the year, ticker starting prices (closing price) for each ticker at the beginning of the year, and ticker ending prices (closing price) for each ticker at the end of the year, were stored in arrays and then outputted to appropriate cells which made the macro run significantly faster when values were assigned memory addresses in RAM. In the below images under the Resources header, we can see the stock analysis macro code run-time differences between the original and refactored code (decreased greatly to 0.17~ seconds for 2017 and 0.14~ seconds for 2018).
 
 ## Resources
+###
+Below are images of the yearly stock performances of 12 stocks in 2017 and 2018 along with their original, not refactored runtimes.
+
+![image](https://github.com/derekhuggens/stock-analysis/blob/c91e5ea6ea430e8adb6028b6a3101bc4add46a6d/Unfactored%202017%20Runtime.png)
+
+![image](https://github.com/derekhuggens/stock-analysis/blob/c91e5ea6ea430e8adb6028b6a3101bc4add46a6d/Unfactored%202018%20Runtime.png)
+
 ###
 Below are images of the yearly stock performances of 12 stocks in 2017 and 2018 along with their refactored runtimes.
 
