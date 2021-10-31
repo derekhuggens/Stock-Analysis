@@ -17,29 +17,33 @@ The stock analysis macro that was written looped through the entire worksheet, u
 ###
 Below are images of the yearly stock performances of 12 stocks in 2017 and 2018 along with their original, not refactored runtimes.
 
+##
 <p align="center">
-    <font size="+5">2017</font>
+    2017
 </p>
 
 ![image](https://github.com/derekhuggens/stock-analysis/blob/c91e5ea6ea430e8adb6028b6a3101bc4add46a6d/Unfactored%202017%20Runtime.png)
 
+##
 <p align="center">
-    ## 2018
+    2018
 </p
     
 ![image](https://github.com/derekhuggens/stock-analysis/blob/760210853d33e42555e5cdd56e93f355305082f1/Unfactored%202018%20Runtime.png)
 
 ###
 Below are images of the yearly stock performances of 12 stocks in 2017 and 2018 along with their refactored runtimes.
-    
+
+##    
 <p align="center">
-    ## 2017
+    2017
 </p>
 
 ![image](https://github.com/derekhuggens/stock-analysis/blob/3d1b28d154d02d9e950ab4ba8a5dd410448d5058/VBA_Challenge_2017.png)
 
+##
 <p align="center">
-    ## 2018
+    2018
 </p>
 
 ![image](https://github.com/derekhuggens/stock-analysis/blob/3d1b28d154d02d9e950ab4ba8a5dd410448d5058/VBA_Challenge_2018.png)
