@@ -18,7 +18,7 @@ The stock analysis macro that was written looped through the entire worksheet, u
 Below are images of the yearly stock performances of 12 stocks in 2017 and 2018 along with their original, not refactored runtimes.
 
 <p align="center">
-    <font size="+1">2017</font>
+    <font size="+5">2017</font>
 </p>
 
 ![image](https://github.com/derekhuggens/stock-analysis/blob/c91e5ea6ea430e8adb6028b6a3101bc4add46a6d/Unfactored%202017%20Runtime.png)
